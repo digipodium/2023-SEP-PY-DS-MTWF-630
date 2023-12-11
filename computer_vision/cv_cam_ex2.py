@@ -3,6 +3,7 @@ import numpy as np
 
 video = cv2.VideoCapture(0)
 while True:
+    
     status, frame = video.read()
     if not status: break
 
